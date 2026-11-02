@@ -1,21 +1,27 @@
-.NET build output
+# .NET build output
 **/bin/
 **/obj/
 
-Local secrets and environment files
+#Local secrets and environment files
 .env
 .env.*
+!.env.example
 **/appsettings.Development.json
+**/secrets.json
 
-IDE files
+#IDE files
 .vs/
 .vscode/
 *.user
 *.suo
 
-Frontend dependencies and build output
+#Frontend dependencies and build output
 **/node_modules/
 **/dist/
 
-Logs
+#Logs
 *.log
+
+#OS files
+.DS_Store
+Thumbs.db
